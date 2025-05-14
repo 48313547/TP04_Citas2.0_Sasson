@@ -10,12 +10,10 @@ function App() {
     { Nombre: "Cucki", Dueño: 'Feli', Fecha: '2012-04-15', Hora: '07:35', Sintomas: 'Vomitos' }
   ])
 
-  // Function to agregar nueva cita
   const agregarCita = (cita) => {
     setCitas([...citas, cita])
   }
 
-  // Function to eliminar cita por index
   const eliminarCita = (index) => {
     const nuevasCitas = [...citas]
     nuevasCitas.splice(index, 1)
