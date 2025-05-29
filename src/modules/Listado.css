@@ -1,0 +1,20 @@
+.contenedor-lista-citas .media {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 3rem;
+}
+
+.contenedor-lista-citas .media:last-of-type {
+  border-bottom: 0;
+}
+
+.contenedor-lista-citas .media-body p {
+  margin: 0;
+}
+
+.contenedor-lista-citas .media-body button {
+  margin-top: 1rem !important;
+}
+
+.contenedor-lista-citas .media-body span {
+  font-weight: bold;
+}

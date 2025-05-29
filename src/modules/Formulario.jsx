@@ -1,4 +1,5 @@
 import React from 'react';
+import './Formulario.css';
 
 function Formulario({ agregarCita }) {
 
@@ -19,16 +20,16 @@ function Formulario({ agregarCita }) {
   return (
     <form onSubmit={EnviarDatos}>
       <label>Nombre Mascota</label>
-      <input type="text" name="Nombre"className="u-full-width" placeholder="Nombre Mascota"/>
+      <input type="text" name="Nombre" className="ancho-completo" placeholder="Nombre Mascota"/>
       <label>Nombre Dueño</label>
-      <input type="text" name="Dueño" className="u-full-width" placeholder="Nombre dueño de la mascota"/>
+      <input type="text" name="Dueño" className="ancho-completo" placeholder="Nombre dueño de la mascota"/>
       <label>Fecha</label>
-      <input type="date" name="Fecha" className="u-full-width"/>
+      <input type="date" name="Fecha" className="ancho-completo"/>
       <label>Hora</label>
-      <input type="time" name="Hora" ClassName="u-full-width"/>
+      <input type="time" name="Hora" className="ancho-completo"/>
       <label>Sintomas</label>
-      <textarea name="Sintomas" className="u-full-width" ></textarea>
-      <button type="submit" className="u-full-width button-primary">
+      <textarea name="Sintomas" className="ancho-completo" ></textarea>
+      <button type="submit" className="ancho-completo boton-agregar-cita">
         Agregar Cita
       </button>
     </form>
